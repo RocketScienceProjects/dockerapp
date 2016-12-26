@@ -45,6 +45,7 @@
             <configuration>
                 <imageName>${docker.image.prefix}/springdocker</imageName>
                 <dockerDirectory>src/main/docker</dockerDirectory>
+                <serverId>docker-hub</serverId>
                 <resources>
                     <resource>
                         <targetPath>/</targetPath>
