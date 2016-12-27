@@ -1,5 +1,5 @@
 #!/bin/bash
-docker -v
+sudo docker -v
 result=$?
 
 if [ $result -ne 0 ]; then 
