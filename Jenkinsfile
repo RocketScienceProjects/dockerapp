@@ -12,7 +12,7 @@ node('Linux'){
 		
    stage name: 'Install_docker', concurrency: 1	
      //check if docker is installed already or not
-        'sh 'lib/docker_install.sh' 
+        'sh lib/docker_install.sh' 
    
    
    		
